@@ -1,0 +1,46 @@
+<nav>
+  <ul class="bg-info">
+    <li>
+      <a routerLink="vista">VISTA</a>
+    </li>
+  </ul>
+</nav>
+
+
+<style>
+  ul {
+    /* padding-left: 0; */
+  }
+
+  nav>ul {
+    /* display: flex; */
+    gap: .2rem;
+    flex-flow: row wrap;
+    list-style: none;
+
+    color: white;
+    font-size: 2rem;
+
+  }
+
+  nav li {
+    display: grid;
+    /* height */
+    min-width: 7ch;
+
+    flex-grow: 1;
+    text-align: center;
+    /* background-color: cornflowerblue; */
+
+  }
+
+  nav a {
+    padding: 1ch .7ch;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .active-link {
+    background-color: coral;
+  }
+</style>
